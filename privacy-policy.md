@@ -1,17 +1,19 @@
 # Gizlilik Politikası
 
-Son güncelleme: 24 Ekim 2026
+Son güncelleme: 28 Ekim 2026
 
 Bu politika, "Kim Bu Futbolcu?" mobil oyununun ("Oyun") hangi verileri işlediğini açıklar. Oyunun geliştiricisi Onur Ege Yakar ("biz") veri sorumlusudur. Sorularınız için: onurege2002@gmail.com
 
 ## Hangi verileri topluyoruz?
 
 - **Hesap kimliği:** Oyuna ilk girişte, adınızı veya e-postanızı istemeden Firebase Authentication ile anonim bir kullanıcı kimliği (UID) oluşturulur.
+- **Bağlı hesap (isteğe bağlı):** İlerlemenizi korumak için hesabınızı Google veya Apple ile bağlarsanız, bu sağlayıcı bize hesap kimliğinizi, e-posta adresinizi ve (varsa) adınızı iletir. Apple'da "E-postamı Gizle"yi seçerseniz yalnızca Apple'ın verdiği yönlendirme adresini görürüz. Bu bilgiler yalnızca girişiniz için Firebase Authentication'da saklanır; diğer oyunculara gösterilmez.
 - **Oyun profili:** Otomatik verilen kullanıcı adı, avatar, unvan, jeton, deneyim puanı, seviye, başarımlar, günlük görev ilerlemesi, oyun içi satın alınan öğeler, Premium durumu, günlük izlenen ödüllü reklam sayısı ve maç istatistikleri.
 - **Uygulama içi satın almalar:** Jeton paketi veya Premium satın aldığınızda ödeme tamamen Apple (App Store) ya da Google (Google Play) tarafından işlenir; kart bilgilerinizi görmeyiz. Satın almayı doğrulamak için mağazanın verdiği satın alma belirtecini/işlem kimliğini sunucumuza (Firebase Cloud Functions) göndeririz ve hesabınızla birlikte yalnızca ürün kimliğini, satın alma/işlem kimliğini, platformu ve tarihi saklarız.
 - **Reklam verileri:** İsteğe bağlı ödüllü reklamlar Google AdMob ile gösterilir. AdMob; reklam kimliği (Android Reklam Kimliği / iOS IDFA, izin verdiyseniz), IP adresi, cihaz ve uygulama bilgileri ile reklam etkileşimlerini işleyebilir.
 - **Maç verileri:** Online maçlarda sorulan sorular, verilen cevaplar, seçilen gizli futbolcular ve maç sonucu.
 - **Çökme raporları:** Uygulama çöktüğünde Firebase Crashlytics; cihaz modeli, işletim sistemi sürümü, uygulama sürümü ve hata ayrıntılarını toplar. Bu raporlar adınızla ilişkilendirilmez.
+- **Kullanım istatistikleri:** Firebase Analytics; oturum sayısı, açılan ekranlar, uygulama sürümü, cihaz türü ve yaklaşık ülke gibi anonim kullanım verilerini toplar. Bu veriler çökmeleri anlamak ve oyunu iyileştirmek için kullanılır, adınızla ilişkilendirilmez ve reklam için kullanılmaz.
 - **Cihazdaki ayarlar:** Ses ve titreşim tercihleri yalnızca cihazınızda saklanır.
 
 Konum, kişiler, fotoğraf, mikrofon gibi verilere erişmeyiz. Reklam kimliği yalnızca AdMob tarafından ve aşağıda açıklanan izinlerinize göre kullanılır.
@@ -35,7 +37,7 @@ Hukuki dayanak: sözleşmenin ifası (oyunun ve satın aldıklarınızın sunulm
 
 ## Verileri kimlerle paylaşıyoruz?
 
-Verileriniz, hizmet sağlayıcımız Google LLC'nin Firebase (Authentication, Cloud Firestore, Cloud Functions, Crashlytics) altyapısında saklanır ve Türkiye dışındaki sunucularda işlenebilir. Ödüllü reklamlar için Google AdMob, yukarıda açıklanan reklam verilerini kendi gizlilik politikasına göre işler. Ödemeler Apple ve Google tarafından kendi politikalarına göre işlenir. Verilerinizi satmayız.
+Verileriniz, hizmet sağlayıcımız Google LLC'nin Firebase (Authentication, Cloud Firestore, Cloud Functions, Crashlytics, Analytics) altyapısında saklanır ve Türkiye dışındaki sunucularda işlenebilir. Ödüllü reklamlar için Google AdMob, yukarıda açıklanan reklam verilerini kendi gizlilik politikasına göre işler. Ödemeler Apple ve Google tarafından kendi politikalarına göre işlenir. Verilerinizi satmayız.
 
 ## Ne kadar süre saklıyoruz?
 
@@ -43,7 +45,7 @@ Profil verileriniz hesabınızı silene kadar saklanır. Satın alma kayıtları
 
 ## Haklarınız ve hesabın silinmesi
 
-Oyunda **Ayarlar → Hesabımı Sil** ile hesabınızı ve profil verilerinizi istediğiniz an kalıcı olarak silebilirsiniz. Uygulamaya erişiminiz yoksa https://zeitgeist352.github.io/kimbufutbolcu-legal/delete-account adresindeki adımları izleyebilir veya bize e-posta gönderebilirsiniz. KVKK ve GDPR kapsamında verilerinize erişme, düzeltme, silme ve itiraz haklarınız vardır.
+Oyunda **Ayarlar → Hesabımı Sil** ile hesabınızı ve profil verilerinizi istediğiniz an kalıcı olarak silebilirsiniz. Hesabınız Google veya Apple'a bağlıysa silmeden önce bir kez daha giriş yapmanız istenir; silme ile bu bağlantı da kaldırılır ve Apple ile girişte uygulamaya verilen erişim iptal edilir. Uygulamaya erişiminiz yoksa https://zeitgeist352.github.io/kimbufutbolcu-legal/delete-account adresindeki adımları izleyebilir veya bize e-posta gönderebilirsiniz. KVKK ve GDPR kapsamında verilerinize erişme, düzeltme, silme ve itiraz haklarınız vardır.
 
 Daha önce oynadığınız maçların kayıtlarında rakibinize ait bilgiler ve anonim kullanıcı kimliğiniz bir süre daha kalabilir; bu kayıtlar sizi doğrudan tanımlamaz.
 
@@ -59,18 +61,20 @@ Bu politikayı güncellediğimizde yeni sürümü bu sayfada yayımlarız.
 
 # Privacy Policy
 
-Last updated: 24 October 2026
+Last updated: 28 October 2026
 
 This policy explains what data the mobile game "Kim Bu Futbolcu?" (the "Game") processes. The developer, Onur Ege Yakar ("we"), is the data controller. Contact: onurege2002@gmail.com
 
 ## What we collect
 
 - **Account ID:** On first launch an anonymous user ID (UID) is created with Firebase Authentication, without asking for your name or email.
+- **Linked account (optional):** if you link your account to Google or Apple to keep your progress, the provider sends us your account ID, email address and (if available) name. If you choose "Hide My Email" with Apple, we only see Apple's relay address. This is stored only in Firebase Authentication for signing you in and is never shown to other players.
 - **Game profile:** auto-generated username, avatar, title, tokens, XP, level, achievements, daily quest progress, in-game items, Premium status, number of rewarded ads watched today and match statistics.
 - **In-app purchases:** when you buy a token pack or Premium, payment is processed entirely by Apple (App Store) or Google (Google Play); we never see your card details. To verify the purchase we send the store's purchase token/transaction ID to our server (Firebase Cloud Functions) and store only the product ID, purchase/transaction ID, platform and date with your account.
 - **Advertising data:** optional rewarded ads are served by Google AdMob, which may process your advertising ID (Android Advertising ID / iOS IDFA, if you allow it), IP address, device and app information and ad interactions.
 - **Match data:** questions asked, answers, chosen secret footballers and match results in online matches.
 - **Crash reports:** Firebase Crashlytics collects device model, OS version, app version and error details when the app crashes. These reports are not linked to your name.
+- **Usage statistics:** Firebase Analytics collects anonymous usage data such as session counts, screens opened, app version, device type and approximate country. It is used to understand crashes and improve the game, is not linked to your name and is not used for advertising.
 - **On-device settings:** sound and vibration preferences are stored only on your device.
 
 We do not access location, contacts, photos or the microphone. Your advertising ID is used only by AdMob and only as described below.
@@ -90,7 +94,7 @@ Legal bases: performance of a contract (providing the game and what you bought),
 
 ## Who we share it with
 
-Data is stored on Google LLC's Firebase infrastructure (Authentication, Cloud Firestore, Cloud Functions, Crashlytics) and may be processed outside your country. For rewarded ads, Google AdMob processes the advertising data described above under its own privacy policy. Payments are processed by Apple and Google under their own policies. We do not sell your data.
+Data is stored on Google LLC's Firebase infrastructure (Authentication, Cloud Firestore, Cloud Functions, Crashlytics, Analytics) and may be processed outside your country. For rewarded ads, Google AdMob processes the advertising data described above under its own privacy policy. Payments are processed by Apple and Google under their own policies. We do not sell your data.
 
 ## Retention
 
@@ -98,7 +102,7 @@ Profile data is kept until you delete your account. Purchase records (product an
 
 ## Your rights and account deletion
 
-Use **Settings → Delete my account** in the game to permanently delete your account and profile data at any time. Without access to the app, follow https://zeitgeist352.github.io/kimbufutbolcu-legal/delete-account or email us. You have the right to access, correct, delete and object to the processing of your data (KVKK / GDPR).
+Use **Settings → Delete my account** in the game to permanently delete your account and profile data at any time. If your account is linked to Google or Apple, you are asked to sign in once more first; deletion also removes the link and, for Sign in with Apple, revokes the app's access. Without access to the app, follow https://zeitgeist352.github.io/kimbufutbolcu-legal/delete-account or email us. You have the right to access, correct, delete and object to the processing of your data (KVKK / GDPR).
 
 Records of past matches may keep your anonymous ID for a while; they do not directly identify you.
 
