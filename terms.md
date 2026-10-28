@@ -1,8 +1,8 @@
 # Kullanım Koşulları
 
-Son güncelleme: 23 Ekim 2026
+Son güncelleme: 28 Ekim 2026
 
-"Kim Bu Futbolcu?" oyununu ("Oyun") kullanarak bu koşulları kabul etmiş olursunuz.
+"Kim Bu Futbolcu?" (İngilizce adıyla "Guess the Footballer: Duel") oyununu ("Oyun") kullanarak bu koşulları kabul etmiş olursunuz.
 
 ## Oyun ve hesap
 
@@ -33,9 +33,9 @@ Bu koşulları güncelleyebiliriz; güncel sürüm bu sayfada yayımlanır. İle
 
 # Terms of Use
 
-Last updated: 23 October 2026
+Last updated: 28 October 2026
 
-By using "Kim Bu Futbolcu?" (the "Game") you agree to these terms.
+By using "Guess the Footballer: Duel" (Turkish name "Kim Bu Futbolcu?"; the "Game") you agree to these terms.
 
 - **Account:** the Game is free. An anonymous account is created on first launch; you may lose access to it if you uninstall the app or change devices. You can delete it at any time in Settings → Delete my account.
 - **Virtual items:** tokens, avatars, frames, titles and modes are valid only inside the Game, have no cash value, cannot be transferred and grant no ownership. We may change prices and rewards for balance.

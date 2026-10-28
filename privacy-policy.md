@@ -2,7 +2,7 @@
 
 Son güncelleme: 28 Ekim 2026
 
-Bu politika, "Kim Bu Futbolcu?" mobil oyununun ("Oyun") hangi verileri işlediğini açıklar. Oyunun geliştiricisi Onur Ege Yakar ("biz") veri sorumlusudur. Sorularınız için: onurege2002@gmail.com
+Bu politika, "Kim Bu Futbolcu?" (İngilizce adıyla "Guess the Footballer: Duel") mobil oyununun ("Oyun") hangi verileri işlediğini açıklar. Oyunun geliştiricisi Onur Ege Yakar ("biz") veri sorumlusudur. Sorularınız için: onurege2002@gmail.com
 
 ## Hangi verileri topluyoruz?
 
@@ -63,7 +63,7 @@ Bu politikayı güncellediğimizde yeni sürümü bu sayfada yayımlarız.
 
 Last updated: 28 October 2026
 
-This policy explains what data the mobile game "Kim Bu Futbolcu?" (the "Game") processes. The developer, Onur Ege Yakar ("we"), is the data controller. Contact: onurege2002@gmail.com
+This policy explains what data the mobile game "Guess the Footballer: Duel" (Turkish name "Kim Bu Futbolcu?"; the "Game") processes. The developer, Onur Ege Yakar ("we"), is the data controller. Contact: onurege2002@gmail.com
 
 ## What we collect
 

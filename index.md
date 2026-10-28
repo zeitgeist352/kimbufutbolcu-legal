@@ -1,4 +1,4 @@
-# Kim Bu Futbolcu?
+# Kim Bu Futbolcu? / Guess the Footballer: Duel
 
 - [Gizlilik Politikası / Privacy Policy](privacy-policy)
 - [Kullanım Koşulları / Terms of Use](terms)

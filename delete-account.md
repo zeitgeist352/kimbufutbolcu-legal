@@ -16,7 +16,7 @@ onurege2002@gmail.com adresine "Hesap silme talebi" konulu bir e-posta gönderin
 
 ---
 
-# Account and data deletion — Kim Bu Futbolcu?
+# Account and data deletion — Guess the Footballer: Duel
 
 **In the app (immediate):** open the game, tap **⚙️ Settings** in the top-right corner of the main menu, then **Delete my account** and confirm. If your account is linked to Google or Apple, sign in with it once more when asked. Your profile (username, tokens, level, achievements, in-game items, statistics) and anonymous account are permanently deleted; ongoing online matches end as a forfeit.
 
